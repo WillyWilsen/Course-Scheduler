@@ -10,7 +10,7 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
 
 1. Pembagian <b>Frontend</b> dan <b>Backend</b> wajib dibuat pada repository GitHub yang terpisah.
 2. Penambahan data Fakultas yang terdiri dari:
-  - Nama Fakultas
+    - Nama Fakultas
 2. Penambahan data Jurusan yang terdiri dari:
   - Nama Jurusan
   - Asal Fakultas
