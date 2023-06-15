@@ -14,7 +14,8 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
     - Jumlah SKS MK
     - Jurusan atau Fakultas MK
     - Semester minimal pengambilan MK
-    - Prediksi nilai MK (<b>Note:</b> Nilai berupa A, AB, B, BC, C, D, atau E)
+    - Prediksi nilai MK
+        - <b>Note:</b> Nilai berupa A, AB, B, BC, C, D, atau E
 3. Aplikasi dapat menerapkan algoritma <b>Dynamic Programming</b> untuk mendapatkan seluruh MK yang dapat diambil sehingga memberikan nilai maksimal dengan input oleh pengguna sebagai berikut.
     - Jurusan atau Fakultas
     - Semester pengambilan MK saat ini
@@ -37,7 +38,8 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
 
 ## Spesifikasi Bonus
 
-1. Aplikasi dapat menambahkan Fakultas dan Jurusan (Fakultas memiliki hubungan <b>One-to-Many</b> terhadap Jurusan).
+1. Aplikasi dapat menambahkan Fakultas dan Jurusan.
+    - Fakultas memiliki hubungan <b>One-to-Many</b> terhadap Jurusan
 2. Menerapkan logika keterhubungan antara Fakultas dan Jurusan pada MK yang akan diambil. 
-    - <b>Contoh:</b> Mahasiswa Jurusan Teknik Informatika dapat mengambil MK yang terdapat dalam Fakultas STEI.
-    - <b>Note:</b> Wajib mengerjakan bonus pertama terlebih dahulu sebelum mengerjakan bonus ini.
+    - <b>Contoh:</b> Mahasiswa Jurusan Teknik Informatika dapat mengambil MK yang terdapat dalam Fakultas STEI
+    - <b>Note:</b> Wajib mengerjakan bonus pertama terlebih dahulu sebelum mengerjakan bonus ini
