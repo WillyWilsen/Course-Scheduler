@@ -43,4 +43,4 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
 2. Menerapkan logika keterhubungan antara Fakultas dan Jurusan pada MK yang akan diambil. 
     - <b>Contoh:</b> Mahasiswa Jurusan Teknik Informatika dapat mengambil MK yang terdapat dalam Fakultas STEI
     - <b>Note:</b> Wajib mengerjakan bonus pertama terlebih dahulu sebelum mengerjakan bonus ini
-3. Melakukan <b>deployment</b> terhadap aplikasi sehingga dapat diakses secara publik.
+3. Melakukan <b>deployment</b> terhadap aplikasi.
