@@ -9,7 +9,7 @@ Mengapa perlu Course Scheduler? Melihat indeks nilai semester-semester sebelumny
 Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan untuk Frontend dan tetapi wajib menggunakan <b>Golang</b> untuk Backend dan <b>SQL</b> untuk Basis Data. Course Scheduler harus mengandung beberapa fitur utama di bawah ini:
 
 1. Pembagian <b>Frontend</b> dan <b>Backend</b> wajib dibuat pada repository GitHub yang terpisah.
-2. Penambahan data MK (Mata Kuliah) yang dapat dilakukan baik secara satu per satu maupun batch dengan file berformat <b>.json</b>. Penambahan data MK terdiri dari:
+2. Penambahan data MK (Mata Kuliah) yang dapat dilakukan baik secara satu per satu maupun batch dengan file berformat <b>.json</b>. Data MK terdiri dari:
     - Nama MK
     - Jumlah SKS MK
     - Jurusan atau Fakultas MK
@@ -38,7 +38,7 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
 
 ## Spesifikasi Bonus
 
-1. Aplikasi dapat menambahkan Fakultas dan Jurusan secara satu per satu atau batch dengan file berformat <b>.json</b>.
+1. Aplikasi dapat menambahkan Fakultas dan Jurusan secara satu per satu <b>atau</b> batch dengan file berformat <b>.json</b>.
     - Fakultas memiliki hubungan <b>One-to-Many</b> terhadap Jurusan
 2. Menerapkan logika keterhubungan antara Fakultas dan Jurusan pada MK yang akan diambil. 
     - <b>Contoh:</b> Mahasiswa Jurusan Teknik Informatika dapat mengambil MK yang terdapat dalam Fakultas STEI
