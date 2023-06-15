@@ -9,14 +9,13 @@ Mengapa perlu Course Scheduler? Melihat indeks nilai semester-semester sebelumny
 Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan untuk Frontend dan tetapi wajib menggunakan <b>Golang</b> untuk Backend dan <b>SQL</b> untuk Basis Data. Course Scheduler harus mengandung beberapa fitur utama di bawah ini:
 
 1. Pembagian <b>Frontend</b> dan <b>Backend</b> wajib dibuat pada repository GitHub yang terpisah.
-2. Penambahan data MK (Mata Kuliah) yang terdiri dari:
+2. Penambahan data MK (Mata Kuliah) yang dapat dilakukan baik secara satu per satu maupun batch dengan file berformat <b>.json</b>. Penambahan data MK terdiri dari:
     - Nama MK
     - Jumlah SKS MK
     - Jurusan atau Fakultas MK
     - Semester minimal pengambilan MK
     - Prediksi nilai MK
         - <b>Note:</b> Nilai berupa A, AB, B, BC, C, D, atau E
-   Penambahan data MK wajib dapat dilakukan baik secara satu per satu maupun batch dengan file berformat <b>.json</b>.
 3. Aplikasi dapat menerapkan algoritma <b>Dynamic Programming</b> untuk mendapatkan seluruh MK yang dapat diambil sehingga memberikan nilai maksimal dengan input oleh pengguna sebagai berikut.
     - Jurusan atau Fakultas
     - Semester pengambilan MK saat ini
