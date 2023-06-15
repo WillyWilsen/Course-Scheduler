@@ -16,6 +16,7 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
     - Semester minimal pengambilan MK
     - Prediksi nilai MK
         - <b>Note:</b> Nilai berupa A, AB, B, BC, C, D, atau E
+   Penambahan data MK wajib dapat dilakukan baik secara satu per satu maupun batch dengan file berformat <b>.json</b>.
 3. Aplikasi dapat menerapkan algoritma <b>Dynamic Programming</b> untuk mendapatkan seluruh MK yang dapat diambil sehingga memberikan nilai maksimal dengan input oleh pengguna sebagai berikut.
     - Jurusan atau Fakultas
     - Semester pengambilan MK saat ini
@@ -38,7 +39,7 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
 
 ## Spesifikasi Bonus
 
-1. Aplikasi dapat menambahkan Fakultas dan Jurusan.
+1. Aplikasi dapat menambahkan Fakultas dan Jurusan secara satu per satu atau batch dengan file berformat <b>.json</b>.
     - Fakultas memiliki hubungan <b>One-to-Many</b> terhadap Jurusan
 2. Menerapkan logika keterhubungan antara Fakultas dan Jurusan pada MK yang akan diambil. 
     - <b>Contoh:</b> Mahasiswa Jurusan Teknik Informatika dapat mengambil MK yang terdapat dalam Fakultas STEI
