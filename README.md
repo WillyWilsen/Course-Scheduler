@@ -19,7 +19,8 @@ Course Scheduler dibuat <b>berbasis web</b>. Bahasa dan Framework dibebaskan unt
 3. Aplikasi dapat menerapkan algoritma <b>Dynamic Programming</b> untuk mendapatkan seluruh MK yang dapat diambil sehingga memberikan nilai maksimal dengan input oleh pengguna sebagai berikut.
     - Jurusan atau Fakultas
     - Semester pengambilan MK saat ini
-    - Batasan SKS yang dapat diambil
+    - Batasan minimal SKS yang dapat diambil
+    - Batasan maksimal SKS yang dapat diambil
 4. Aplikasi dapat menampilkan <b>visualisasi</b> untuk seluruh MK yang diambil dan menampilkan nilai akhir yang akan didapatkan. Framework untuk visualisasi dibebaskan.
 5. Aplikasi dapat dijalankan dengan menggunakan <b>Docker</b> pada lokal komputer baik untuk Frontend, Backend, maupun Basis Data.
     - Buatlah Dockerfile masing-masing untuk Frontend dan Backend agar dapat membuat image pada container.
